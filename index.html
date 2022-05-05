@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meeting Links</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=i, shrink-to-fit=no, viewport-fit=cover">
+
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            html {
+                font-size: 62.5%;
+                height: 100%;
+            }
+            body {
+                background: linear-gradient(#a53d3e, #740424);
+                color: #ffffff;
+                font-size: 2.2rem;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 50px;
+                text-align: center;
+            }
+
+            h1, h2, h3, h4, p {
+                margin-bottom: 1rem;
+            }
+            a, a:link, a:visited, a:hover, a:active {
+                text-decoration: none;
+            }
+            p {
+                margin-bottom: 3rem;
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 5rem;
+                padding: 3rem 0;
+            }
+
+            .grid-item {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .grid-item__content {
+            }
+
+            .button {
+                display: inline-block;
+                background-color: rgba(0,0,0,.95);
+                box-shadow: .5rem .5rem 2rem rgb(72 10 10);
+                color: #ffffff;
+                line-height: 4;
+                padding: 0 100px;
+                text-transform: uppercase;
+            }
+            .button:hover {
+                background-color: rgba(0,0,0,.75);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Meeting Links</h1>
+        <p>Click the button to launch the meeting.</p>
+
+        <section class="grid">
+            <div class="grid-item">
+                <div class="grid-item__content">
+                    <h2>Piano Lessons</h2>
+                    <p><i>Thursdays 4:00-5:00</i><br />
+                    Zoom link for Thomas and Jeffrey's piano lessons.</p>
+                    <a class="button" href="https://us04web.zoom.us/j/73532081409?pwd=TBfYNyNj0dRMyivA1LSG0iPIm6-ZxO.1" target="_blank">Start Zoom</a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item__content">
+                    <h2>Megan - MAPS</h2>
+                    <p><i>Wednesdays at 3:30</i><br />
+                    Thomas's Zoom appointment with Megan.</p>
+                    <a class="button" href="https://us02web.zoom.us/j/7928894236?pwd=Rk50Rmhib0syL3NvWTNvNDRYOVcwZz09" target="_blank">Start Zoom</a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item__content">
+                    <h2>Guitar Lessons</h2>
+                    <p><i>Wednesdays at 6:00</i><br />
+                    Zoom link for Mollie's guitar lessons.</p>
+                    <a class="button" href="https://us04web.zoom.us/j/6968482868?pwd=TjFhVkVrRkhUNHY2eldmb1c2L1Q1UT09" target="_blank">Start Zoom</a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
